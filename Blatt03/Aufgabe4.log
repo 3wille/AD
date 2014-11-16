@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2014.11.11)  15 NOV 2014 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2014.11.11)  16 NOV 2014 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -518,18 +518,18 @@ Overfull \hbox (22.00351pt too wide) in paragraph at lines 34--35
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./4aGraph.png (PNG copy)>]
- <4eGraph.png, id=12, 889.3225pt x 335.2525pt>
+ <4eGraph.png, id=12, 892.33376pt x 335.2525pt>
 File: 4eGraph.png Graphic file (type png)
  <use 4eGraph.png>
-Package pdftex.def Info: 4eGraph.png used on input line 42.
-(pdftex.def)             Requested size: 355.72269pt x 134.09862pt.
+Package pdftex.def Info: 4eGraph.png used on input line 43.
+(pdftex.def)             Requested size: 356.92719pt x 134.09862pt.
 
-Overfull \hbox (35.72272pt too wide) in paragraph at lines 41--43
+Overfull \hbox (36.92722pt too wide) in paragraph at lines 42--44
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
@@ -547,7 +547,7 @@ ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
 .pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Aufgabe4.pdf (2 pages, 91132 bytes).
+Output written on Aufgabe4.pdf (2 pages, 91226 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
