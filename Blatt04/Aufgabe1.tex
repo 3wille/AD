@@ -1,0 +1,26 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc} \usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{amssymb} \usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{latexsym}
+
+\title{Aufgabenblatt 4 - Aufgabe 1}
+
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+\item[(a)]Um die h\"ochst-m\"ogliche Sprosse mit nur 2 Gl\"asern zufinden, lassen wir ein Glas von jeder $\sqrt{n}$-ten Sprosse fallen. Wenn das Glas bei der k-ten Sprosse zerbricht, muss die gesuchte Sprosse zwischen der k-ten und der $(k-1)$-ten Sprosse liegen. Somit haben wir die m\"oglichen Sprossen auf $\sqrt{n}$ eingegrenzt. Diese können wir nun naiv von unten durchsuchen. \\
+Sowohl das erste Eingrenzen als auch das genaue Suchen ben\"otigen \\maximal $O\left(\sqrt{n}\right)$ Zeit, was zusammen $O\left(2\sqrt{n}\right)=O\left(\sqrt{n}\right)$ ergibt. Dies liegt in $o(n)$. \\
+Die gesamte Strategie funktioniert ohne Anpassungen nur, wenn $\sqrt{n}\in\mathbb{N}$ ist, also wenn $n=m^2$ mit $m\in\mathbb{N}$ gilt. \\
+Wenn $n{\neq}m^2$ mit $m\in\mathbb{N}$, führt man obige Strategie für das gr\"o{\ss}te k mit $n=k^2$, $k\in\mathbb{N}$ und $k<m$ durch. Im worst-case verl\"angert sich so die Laufzeit um maximal $O(\sqrt{m-k})$.
+
+\item[(b)]Um die obige Strategie auf die Verwendung von beliebig vielen Gl\"asern anzupassen, wenden wir den Teil der obigen Strategie, der die Sprossen in $\sqrt{n}$ Teile spaltet, mehrmals an. Als Beispiel sei $n=81$: Da $\sqrt{81}=9$ pr\"ufen wir jede 9-te Sprosse. Sobald das Glas bricht, führen wir den Algorithmus f\"ur die verbliebenden Sprossen erneut aus.\\
+\end{enumerate}
+\end{document}

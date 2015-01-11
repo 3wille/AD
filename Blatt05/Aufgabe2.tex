@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc} \usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{amssymb} \usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{latexsym}
+
+\title{Aufgabenblatt 5 - Aufgabe 2}
+
+\author{}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+\item[(a)]
+Nein, das Problem ist nicht wohldefiniert. Wenn es keinen Pfad zwischen zwei Knoten in G gibt, so kann es auch keinen kürzesten einfachen Pfad geben. Dies ist möglich, da G nicht als zusammenhängend definiert ist.\\
+Wenn es jedoch einen Pfad gibt, gibt es auch mindestens einen kürzesten Pfad, der immer  eine bestimmte Länge hat, da ein einfacher Pfad keine Schleifen durchläuft. 
+\item[(b)]
+Wir merken uns in jedem Knoten nicht nur die Länge des kürzesten Pfades, sondern auch die Knoten, die auf diesem Pfad liegen. Wenn wir nun eine Kante relaxen wollen, prüfen wir vorher, ob der Endknoten der Kante noch nicht Teil des Pfades in dem Startknoten der Kante ist. Auf diese Art und Weise werden nur einfache Pfade berücksichtigt. Der Algorithmus funktioniert wie gehabt, nur dass wir uns die Prüfung auf negative Schleifen, also den letzten Durchlauf, sparen können. \\
+Wenn es keinen Pfad vom Start- zum Endknoten gibt, bleibt die Distanz unendlich. Wenn es keine Schleife gibt, läuft der Algorithmus wie gehabt.\\
+Wenn es eine Schleife gibt, egal ob die Kantengewichte eine positive oder negative Summe ergeben, wird der Relax, der das Ende der Schleife beinhaltet, abgebrochen. Danach läuft der Bellman-Ford Algorithmus normal weiter.
+\item[(c)]
+Ja, in der Vorlesung wurde behauptet, dass die Laufzeit des Bellman-Ford Algorithmus in $O(|V|*|E|)$ liegt, unsere Adaption benötigt pro Edge eine If-Abfrage mehr. Dadurch liegt die Adaption ebenfalls in $O(|V|*|E|)$. 
+\item[(d)]
+
+\end{enumerate}
+\end{document}
