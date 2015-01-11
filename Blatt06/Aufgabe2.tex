@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc} \usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{amssymb} \usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{latexsym}
+
+\title{Aufgabenblatt 6 - Aufgabe 2}
+
+\author{}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+\item $u=Frankfurt$ \\
+  \begin{tabular}{| c | c | c | c | c |}
+    \hline
+     & Frankfurt & Mannheim & Würzburg & Kassel \\ \hline
+    $v.dist$ & 0 & 85 & 217 & 173 \\ \hline
+    $v.\pi$ & Frankfurt & Frankfurt & Frankfurt & Frankfurt \\ \hline 
+    $v.status$ & settled & labelchanged & labelchanged & labelchanged \\
+    \hline
+  \end{tabular}\\
+restliche Knoten haben $v.dist=\infty$, $v.\pi=NIL$ und $v.status=unreached$
+\item $u=Muenchen$ \\
+\end{enumerate}
+\end{document}
