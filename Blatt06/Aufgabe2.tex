@@ -15,7 +15,7 @@
 \maketitle
 \begin{enumerate}
 \item $u=Frankfurt$ \\
-  \begin{tabular}{| c | c | c | c | c |}
+  \begin{tabular}{| l | c | c | c | c |}
     \hline
      & Frankfurt & Mannheim & Würzburg & Kassel \\ \hline
     $v.dist$ & 0 & 85 & 217 & 173 \\ \hline
@@ -24,6 +24,69 @@
     \hline
   \end{tabular}\\
 restliche Knoten haben $v.dist=\infty$, $v.\pi=NIL$ und $v.status=unreached$
-\item $u=Muenchen$ \\
+
+\item 
+Mannheim 85+311=396\\
+Kassel 173+446=619\\
+Würzburg 217+229=446\\
+$u=Mannheim$ \\
+  \begin{tabular}{| l | c | c | c | c |}
+    \hline
+      & Mannheim & Würzburg & Kassel & Karlsruhe \\ \hline
+    $v.dist$ & 85 & 217 & 173 & 165 \\ \hline
+    $v.\pi$ & Frankfurt & Frankfurt & Frankfurt & Mannheim \\ \hline 
+    $v.status$ & settled & labelchanged & labelchanged & labelchanged \\
+    \hline
+  \end{tabular}\\
+  Frankfurt wie oben \\
+  restliche Knoten haben $v.dist=\infty$, $v.\pi=NIL$ und $v.status=unreached$
+
+\item 
+Kassel 173+446=619\\
+Würzburg 217+229=446\\
+Karlsruhe 165+260= 425\\
+$u=Karlsruhe$ \\
+  \begin{tabular}{| l | c | c | c | c |}
+    \hline
+      & Karlsruhe & Würzburg & Kassel & Augsburg \\ \hline
+    $v.dist$ & 165 & 217 & 173 & 415 \\ \hline
+    $v.\pi$ & Mannheim & Frankfurt & Frankfurt & Karlsruhe \\ \hline 
+    $v.status$ & settled & labelchanged & labelchanged & labelchanged \\
+    \hline
+  \end{tabular}\\
+  Mannheim und Frankfurt wie oben \\
+  restliche Knoten haben $v.dist=\infty$, $v.\pi=NIL$ und $v.status=unreached$
+\clearpage
+\item 
+Kassel 173+446=619\\
+Würzburg 217+229=446\\
+Augsburg 415+43=458\\
+$u=Wuerzburg$ \\
+  \begin{tabular}{| l | c | c | c | c | c |}
+    \hline
+      & Würzburg & Kassel & Augsburg & Nürnberg & Erfurt \\ \hline
+    $v.dist$ & 217 & 173 & 415 & 320 & 403  \\ \hline
+    $v.\pi$ & Frankfurt & Frankfurt & Karlsruhe & Würzburg & Würzburg \\ \hline 
+    $v.status$ & settled & labelchanged & labelchanged & labelchanged & labelchanged \\
+    \hline
+  \end{tabular}\\
+  Karlsruhe, Mannheim und Frankfurt wie oben \\
+  restliche Knoten haben $v.dist=\infty$, $v.\pi=NIL$ und $v.status=unreached$
+  
+Kassel 173+446=619\\
+Augsburg 415+43=458\\
+Nürnberg 320+151=471 \\
+Erfurt 403+342=745 \\
+$u=Wuerzburg$ \\
+  \begin{tabular}{| l | c | c | c | c | c |}
+    \hline
+      & Augsburg & Kassel &  & Nürnberg & Erfurt \\ \hline
+    $v.dist$ & 415 & 173 &  & 320 & 403  \\ \hline
+    $v.\pi$ & Karlsruhe & Frankfurt &  & Würzburg & Würzburg \\ \hline 
+    $v.status$ & settled & labelchanged & labelchanged & labelchanged & labelchanged \\
+    \hline
+  \end{tabular}\\
+  Würzburg, Karlsruhe, Mannheim und Frankfurt wie oben \\
+  restliche Knoten haben $v.dist=\infty$, $v.\pi=NIL$ und $v.status=unreached$
 \end{enumerate}
 \end{document}
