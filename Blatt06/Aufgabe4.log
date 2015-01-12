@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.11)  12 JAN 2015 19:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.11)  12 JAN 2015 23:00
 entering extended mode
-**Aufgabe2.tex
-(D:\Dokumente\AD\Blatt06\Aufgabe2.tex
+**Aufgabe4.tex
+(D:\Dokumente\AD\Blatt06\Aufgabe4.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -407,7 +407,7 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(D:\Dokumente\AD\Blatt06\Aufgabe2.aux)
+(D:\Dokumente\AD\Blatt06\Aufgabe4.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
@@ -451,41 +451,25 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 15.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (56.2588pt too wide) in paragraph at lines 61--75
-[] 
- []
-
-
-Overfull \hbox (54.92546pt too wide) in paragraph at lines 77--92
-[] 
- []
-
-
-Overfull \hbox (59.8699pt too wide) in paragraph at lines 94--109
-[] 
- []
-
-[2
-
-] (D:\Dokumente\AD\Blatt06\Aufgabe2.aux) ) 
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (D:\Dokumente\AD\Blatt06\
+Aufgabe4.aux) ) 
 Here is how much of TeX's memory you used:
  3985 strings out of 493921
  51417 string characters out of 3144876
- 114137 words of memory out of 3000000
+ 108137 words of memory out of 3000000
  7231 multiletter control sequences out of 15000+200000
  10919 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,7n,32p,261b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on Aufgabe2.pdf (2 pages, 65023 bytes).
+ 27i,8n,32p,261b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Aufgabe4.pdf (1 page, 63613 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
