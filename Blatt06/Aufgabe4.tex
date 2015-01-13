@@ -22,9 +22,9 @@ $T$ ist auch ein minimaler Spannbaum im so veränderten Graphen $G'$.\\
 Beweis:\\
 Wenn $T$ kein minimaler Spannbaum in $G'$ sei, muss es einen minimalen Spannbaum $T' \neq T$ geben.\\
 Wenn $e \in T'$, dann $w(T')$ in $G'$ gr{\"o}{\ss}er als in $G$ und muss somit gr{\"o}{\ss}er als $T$ sein.\\
-Wenn $e \notin T'$, dann sind sowohl $T$ als auch $T'$ von der Ver{\"a}nderung unbeeinflusst.
+Wenn $e \notin T'$, dann sind sowohl $T$ als auch $T'$ von der Ver{\"a}nderung unbeeinflusst, somit bleibt $T$ auf jeden Fall ein minimaler Spannbaum.
 \item[(b)]
-
-
+Wenn $e \in E'$ ist und $e$ um $\Delta w$ verringert wird, wird auch $w(T)$ um $\Delta w$ verringert. Da die Gewichtsumme jedes weiteren möglichen Spannbaumes ebenfalls maximal um $\Delta w$ verringert werden kann, bleibt $T$ auf jeden Fall ein minimaler Spannbaum. \\ 
+Wenn $e \notin E'$ führen wir Kruskals Algorithmus wie bei der Berechnung von $T$ aus, nur dass wir zu Beginn alle Kanten $d$ mit $w'(d)<w'(e)$, die somit unverändert blieben, überspringen können und erst ab da mit dem neuen Gewicht weiter rechnen.
 \end{enumerate}
 \end{document}
